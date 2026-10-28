@@ -1,0 +1,13 @@
+[package]
+name = "mlrust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rusty-machine = "0.5.4"
+serde = "1"
+serde_derive = "1"
+rand = "0.6.5"
+csv = "1.0.7"
+tensorflow = { version = "0.21.0", default-features = false, features = ["tensorflow_runtime_linking"] }
+transpose = "0.2.3"
